@@ -4,11 +4,10 @@
 set -e
 
 # build
-npm run build
+quasar build
 
 # navigate into the build output directory
-cd dist
-
+cd dist/spa
 git init
 git add -A
 git commit -m 'deploy'
