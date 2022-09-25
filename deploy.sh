@@ -12,6 +12,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:kokim2022/new.git uat:gh-pages
+git push -f git@github.com:kokim2022/new.git master:gh-pages
 
 cd -
